@@ -5,38 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio Gloria Bustamante</title>
     <link rel="stylesheet" href="style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-    <div>
-        <h2>[Portfolio]</h2>
 
-        <h1>Gloria Bustamante</h1>
+<body>
+    <div class="flex-container">
+        <div class="encabezado text-center col-12">
+            <h2>[Portfolio]</h2>
+            <h1>Gloria Bustamante</h1>
+        </div>
     </div>
-    <header>
-        <div id="encabezado">
-                <nav >
-                    </ul>
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
                     <a class="selected"  href="">Inicio</a>
                     <a class="boton"  href="#presentacion">Sobre </a>
                     <a class="boton" href="#secciondos">Mi Experiencia en JaP</a>
                     <a class="boton" href="#contacto">Contacto</a>
-                    </ul>
-                </nav>
+            </nav>
         </div>
     </header>
 
-    <div seccion>
-        <div id="presentacion">
+    <div class="container mt-4">
+        <div id="presentacion" class="row">
+            <div class="col-md-6 text-center">
                 <img src="Imagenes/Yo.black.jpeg" alt="">
-                <div id="seccionuno">
-                    
-                <h3>Sobre Mi</h3>
-                    <p>Mi nombre es Gloria y tengo 25 años, soy oriunda de la ciudad de Rivera pero me encuentro viviendo en Montevideo hace 7 años.
-                    Soy estudiante de Psicología en UDELAR y me encuentro cursando Diseño web en la ediciòn 2024 de Jóvenes a Programar.
-                    Mi aspiración es poder seguir avanzando y capacitandome en el àmbito de la tecnología.</p>
-                </div>
             </div>
+            <div id="seccionuno" class="col-md-6">
+                <h3>Sobre Mi</h3>
+                <p>Mi nombre es Gloria y tengo 25 años, soy oriunda de la ciudad de Rivera pero me encuentro viviendo en Montevideo hace 7 años. Soy estudiante de Psicología en UDELAR y me encuentro cursando Diseño web en la edición 2024 de Jóvenes a Programar. Mi aspiración es poder seguir avanzando y capacitándome en el ámbito de la tecnología.</p>
+            </div>
+        </div>
     </div>
 
     <div id="secciondos">
@@ -46,12 +47,12 @@
         <p>
             Me inscribí a JAP por incentivo de mi hermana. Si bien siempre me gustó aprender sobre tecnología no me sentía capaz. 
             Hice la prueba de ingreso y decidí que llegaría hasta el final. He encontrado dificultades en el camino, pero en Competencias Tranversales he aprendido a organizar mis prioridades y manejar mis emociones. 
-            Fase 1 fue todo un desafio aprender a no dejar acumular o atrasar las actividades, por lo que en fase 2 me siento con mayor confianza en como van a salir las cosas.
+            En Fase 1 fue todo un desafio aprender a no procastinar, priorizar y organizar. Me siento más confiante, creo en como van a resultar las cosas.
             El éxito está en seguir hacia adelante.-
         </p>
     </div>
-
-    <div id="contacto">
+    
+    <div id="contacto" class="container mt-4">
         <h5>Contacto</h5>
         <form action="contact">
             <div class="contact">
@@ -66,21 +67,21 @@
             </div>
         </form>
 
-        <div class="Redes">
-            <ul>
-                <div class="loglink">
-                    <img src="Imagenes/61109.png" alt="">
-                    <a href="https://www.linkedin.com/">Linkedin</a>
-                </div>
-                <div class="logfac">
-                    <img src="Imagenes/87390.png" alt="">
-                <a href=https://www.instagram.com/nanibust/> Instagram</a>
-                </div>
-                <div class="logins">
-                    <img src="Imagenes/20673.png" alt="">
+        <div class="redes mt-4 col-12">
+            <ul class="navbar">
+                <li class="loglink">
+                    <img src="Imagenes/61109.png" alt="LinkedIn">
+                    <a href="https://www.linkedin.com/">LinkedIn</a>
+                </li>
+                <li class="logfac col-12">
+                    <img src="Imagenes/87390.png" alt="Instagram">
+                    <a href="https://www.instagram.com/nanibust/">Instagram</a>
+                </li>
+                <li class="logins col-12">
+                    <img src="Imagenes/20673.png" alt="Facebook">
                     <a href="https://www.facebook.com/">Facebook</a>
-            </div>
-    </div>
-
+                </li>
+            </ul>
+        </div>
 </body>
 </html>
