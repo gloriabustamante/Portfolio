@@ -219,3 +219,14 @@ h5 {
         margin-top: 1rem;
     }
 }
+
+@media (max-width: 768px) {
+    .encabezado h1 {
+        font-size: 3rem;
+    }
+
+    p, h3 {
+        font-size: 1.1rem;
+        justify-content: center;
+    }
+}
