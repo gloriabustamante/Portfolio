@@ -187,14 +187,16 @@ h5 {
     margin: 0 20px;
 }
 
-@media (max-width: 576px) {
+@media ( min-width: 350px) and (max-width: 700px) {
     .encabezado h1 {
         font-size: 3rem;
     }
 
-    p, h3 {
-        font-size: 1.1rem;
-        justify-content: center;
+    h4, h3 {
+        font-size: 1.3rem;
+        padding: 5px;
+        text-align: center;
+        margin-top: 50px;
     }
 
     .navbar a {
@@ -209,7 +211,8 @@ h5 {
     justify-content: center; 
     text-align: center;
     width: 100%; 
-}
+    padding: 15px;
+    }
 
     .imagen-centrada {
         max-width: 100%;
@@ -217,6 +220,37 @@ h5 {
         display: block; 
         margin: 0 auto; 
         margin-top: 1rem;
+    }
+
+    #seccionuno p{
+        width: 70%; 
+        padding: 5px;
+        text-align: left;
+        font-size: 13px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .navbar a {
+        font-size: 1rem; 
+        padding: 5px 10px; 
+    }
+
+    .container {
+        max-width: 95%; 
+    }
+
+    .redes ul li {
+        margin: 10px 0;
+    }
+
+    #secciondos p {
+        width: 70%; 
+        padding: 5px;
+        text-align: left;
+        font-size: 13px;
+        margin: 0 auto;
+        margin-top: 20px;
     }
 }
 
@@ -228,39 +262,5 @@ h5 {
     p, h3 {
         font-size: 1.1rem;
         justify-content: center;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 700px) {
-    #presentacion {
-        flex-direction: column; /* Cambia el diseño a una columna para pantallas pequeñas */
-        padding: 20px; /* Ajusta el padding para mejor visualización */
-    }
-
-    .imagen-centrada {
-        max-width: 100%;
-        height: 100%; 
-        display: block; 
-        margin: 0 auto; 
-        margin-top: 1rem;
-    }
-
-    #seccionuno {
-        width: 100%; /* Asegura que el texto ocupe todo el ancho disponible */
-        padding: 10px; /* Agrega un poco de espacio alrededor del texto */
-        text-align: center; /* Centra el texto */
-    }
-
-    .navbar a {
-        font-size: 1rem; /* Ajusta el tamaño de fuente de los enlaces de navegación */
-        padding: 5px 10px; /* Ajusta el espaciado dentro de los enlaces */
-    }
-
-    .container {
-        max-width: 95%; /* Asegura que el contenedor no sea demasiado ancho */
-    }
-
-    .redes ul li {
-        margin: 10px 0; /* Añade espacio entre los iconos de redes sociales */
     }
 }
